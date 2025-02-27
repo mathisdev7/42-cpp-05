@@ -6,7 +6,7 @@
 /*   By: mazeghou <mazeghou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/25 20:56:06 by mazeghou          #+#    #+#             */
-/*   Updated: 2025/02/25 22:03:42 by mazeghou         ###   ########.fr       */
+/*   Updated: 2025/02/27 14:40:21 by mazeghou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,24 +65,7 @@ void ShrubberyCreationForm::beExecuted(BureauCrat const &bureaucrat) const
 
 		for (int i = 0; i < 5; i++)
 		{
-			outfile << "         v" << std::endl
-					<< "        >X<" << std::endl
-					<< "         A" << std::endl
-					<< "        d$b" << std::endl
-					<< "      .d\\$$b." << std::endl
-					<< "    .d$i$$\\$$b." << std::endl
-					<< "       d$$@b" << std::endl
-					<< "      d\\$$$ib" << std::endl
-					<< "    .d$$$\\$$$b" << std::endl
-					<< "  .d$$@$$$$\\$$ib." << std::endl
-					<< "      d$$i$$b" << std::endl
-					<< "     d\\$$$$@$b" << std::endl
-					<< "  .d$@$$\\$$$$$@b." << std::endl
-					<< ".d$$$$i$$$\\$$$$$$b." << std::endl
-					<< "        ###" << std::endl
-					<< "        ###" << std::endl
-					<< "        ###" << std::endl
-					<< std::endl;
+			outfile << "shrubbery - " << i << std::endl;
 		}
 		outfile.close();
 	}
